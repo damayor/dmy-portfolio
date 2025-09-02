@@ -1,0 +1,23 @@
+:root {
+  --clr-gray-100: #141414;
+  --clr-gray-500: #1F1F1F;
+  --clr-gray-800: #333;
+  --clr-white: #FFF;
+  --clr-primary: #bfe74f;
+  --clr-secondary: #3e52a3;
+
+
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 62.5%;
+  color: var(--clr-white);
+  background-color: var(--clr-gray-100);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
