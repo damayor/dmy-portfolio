@@ -47,32 +47,19 @@ Users should be able to:
 ### What I learned
 
 I went through the main principles of React to create a component that will be reused in this case, into a grid of buttons.
+In this case was a real challenge to develop without a Figma project. I increased to measure pixels and colors just with a pair of sample images
 
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-```css
-.blog-card-content {
-  padding: var(--sp-300) 0;
-  display: flex;
-  flex: 1 0 auto;
-  flex-direction: column;
-  justify-content: space-between;
-  color: var(--cl-gray-950);
-}
+const SocialButton = ({textLabel, url = '#'}) => (
+  <div tabIndex={0} className="social-button" onClick={() => window.open(url, "_blank")}>
+      {textLabel}
+  </div>
+)
 ```
 
 ### Continued development
 
-- Enhance
-- Responsive development not based on screen size.
-
-The .blog-card-content element needs a gap: 12px; to add space between the text items.
-
-The main card container needs a border to match the design.
+- Prompt out the sample project. Update with my real data on the visual side, adding my own style.s
 
 ## Author
 

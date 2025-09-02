@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="card">
-        <img src="/public/assets/images/avatar-jessica.jpeg" alt="" className="card__author-img" />
+        <img src="/assets/images/avatar-jessica.jpeg" alt="" className="card__author-img" />
         
         <h1 className='card__author-name'>Jessica Randall</h1>
         <h3 className="card__author-location">London, United Kingdom</h3>
