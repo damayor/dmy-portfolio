@@ -59,7 +59,7 @@ const SocialButton = ({textLabel, url = '#'}) => (
 
 ### Continued development
 
-- Prompt out the sample project. Update with my real data on the visual side, adding my own style.s
+- Prompt out the sample project. Update with my real data on the visual side, adding my own style.
 
 ## Author
 
